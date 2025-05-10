@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b5fac7;
+}
+
+ /* Container for the tour cards */
+.container {
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #f8f9fa;
+}
+
+/* Card body styling */
+.card-body {
+  background-color: #ffffff;
+  padding: 20px;
+  color: #333;
+}
+
+/* Title styling */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Description styling */
+.card-text {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+/* List styling */
+ul.list-unstyled {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+ul.list-unstyled li {
+  font-size: 1rem;
+  color: #34495e;
+  margin-bottom: 8px;
+}
+
+ul.list-unstyled li strong {
+  font-weight: bold;
+}
+
+/* Price styling */
+.card-body li:last-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+/* Responsive layout for cards */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Heading styling */
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Margin for the bottom of each card */
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
